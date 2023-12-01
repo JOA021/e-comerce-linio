@@ -1,0 +1,22 @@
+<div class="card text-start" style="width: 15rem; height: 30rem; margin: 8px; padding: 10px;">
+    <img src={{imgOfer}} class="card-img-top" style="width: 6rem;" alt="...">
+    <img src={{imgProduct}} class="card-img-top" alt="...">
+    <div class="card-body">
+        <p class="card-title fs-6">{{title}}</p>
+        <p class="card-text text-decoration-line-through" style="opacity: 0.5;">{{originalPrice}}</p>
+        <p class="card-text fw-bold">{{discount}}</p>
+        <div class="d-flex flex-row mb-3 ">
+        <p class="card-text text-danger fw-bold">       
+            {{discountTarjet}} 
+            <img *ngIf="imgUnica" class="" src="{{imgUnica}}" style="width: 13px;height: 15px; margin: 5px;" alt="">
+            <img *ngIf="imgCMR" class="bg-white" src="{{imgCMR}}" style="width: 22px;height: 20px; margin: 5px;" alt="">
+            <img *ngIf="imgBank" class="bg-white" src="{{imgBank}}" style="width: 30px;height: 30px; margin: 5px;" alt="">
+        </p>
+        <!-- <img src="{{imgUnica}}" alt="">
+        <img src="{{imgCMR}}" alt="">
+        <img src="{{imgBank}}" alt=""> -->
+        </div>
+
+    </div>
+</div>
+

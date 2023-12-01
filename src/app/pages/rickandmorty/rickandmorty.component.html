@@ -1,0 +1,7 @@
+<button class="btn btn-primary" (click)="traerPersonajes()">Traer personajes</button>
+
+@for(personaje of personajes; track personaje.id){
+    <p>{{personaje.name}}</p>
+    }
+
+

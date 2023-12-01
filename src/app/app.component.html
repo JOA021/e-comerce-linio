@@ -1,0 +1,51 @@
+<body style="background-color: #e2e1e1;">
+  <nav class="navbar navbar-expand-lg" style="background-color: #3d3d3d;">
+    <div class="container">
+      <div style="margin-right: 15px;">
+        <img class="rounded" style="max-width: 40px; height: auto;"
+          src="https://scontent.fbog19-1.fna.fbcdn.net/v/t39.30808-6/239457394_4334694159907823_3288866716905704120_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=gGu3YmyJpv4AX_WfhUq&_nc_ht=scontent.fbog19-1.fna&oh=00_AfB1S9kGQVxgkszv1MJoez0rnmb0L-4AbmvnSvOS98ZUBw&oe=65689967"
+          alt="">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/monitores">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/Login">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <router-outlet></router-outlet>
+</body>
